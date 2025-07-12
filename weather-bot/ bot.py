@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 import aiohttp
 import datetime
+import logging
 
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
